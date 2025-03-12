@@ -1,5 +1,5 @@
 <?php
-include "M++ahasiswa.php";
+include "Mahasiswa.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["simpan"])) {
     $nim = $_POST["nim"];
